@@ -11,10 +11,13 @@
 		8D5E20AE20C2837D008E6D70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E20AD20C2837D008E6D70 /* ViewController.swift */; };
 		8D5E20B120C2837D008E6D70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D5E20AF20C2837D008E6D70 /* Main.storyboard */; };
 		8D5E20B420C2837D008E6D70 /* Werkstuk_2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E20B220C2837D008E6D70 /* Werkstuk_2.xcdatamodeld */; };
-		8D5E20B620C2837E008E6D70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D5E20B520C2837E008E6D70 /* Assets.xcassets */; };
 		8D5E20B920C2837E008E6D70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D5E20B720C2837E008E6D70 /* LaunchScreen.storyboard */; };
 		8D5E20C420C2837F008E6D70 /* Werkstuk_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E20C320C2837F008E6D70 /* Werkstuk_2Tests.swift */; };
 		8D5E20CF20C2837F008E6D70 /* Werkstuk_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E20CE20C2837F008E6D70 /* Werkstuk_2UITests.swift */; };
+		8D5E20DF20C2D071008E6D70 /* Annotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E20DE20C2D071008E6D70 /* Annotation.swift */; };
+		8D5E20E320C2E238008E6D70 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E20E220C2E238008E6D70 /* DetailViewController.swift */; };
+		8D5E20E720C2E747008E6D70 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D5E20E620C2E747008E6D70 /* Images.xcassets */; };
+		8D5E20E920C30DB7008E6D70 /* TaalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E20E820C30DB7008E6D70 /* TaalController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +43,6 @@
 		8D5E20AD20C2837D008E6D70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8D5E20B020C2837D008E6D70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D5E20B320C2837D008E6D70 /* Werkstuk_2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Werkstuk_2.xcdatamodel; sourceTree = "<group>"; };
-		8D5E20B520C2837E008E6D70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D5E20B820C2837E008E6D70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D5E20BA20C2837E008E6D70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D5E20BF20C2837F008E6D70 /* Werkstuk_2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Werkstuk_2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +51,10 @@
 		8D5E20CA20C2837F008E6D70 /* Werkstuk_2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Werkstuk_2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D5E20CE20C2837F008E6D70 /* Werkstuk_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Werkstuk_2UITests.swift; sourceTree = "<group>"; };
 		8D5E20D020C2837F008E6D70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D5E20DE20C2D071008E6D70 /* Annotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Annotation.swift; sourceTree = "<group>"; };
+		8D5E20E220C2E238008E6D70 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		8D5E20E620C2E747008E6D70 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8D5E20E820C30DB7008E6D70 /* TaalController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaalController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +108,13 @@
 				8D5E20AB20C2837D008E6D70 /* AppDelegate.swift */,
 				8D5E20AD20C2837D008E6D70 /* ViewController.swift */,
 				8D5E20AF20C2837D008E6D70 /* Main.storyboard */,
-				8D5E20B520C2837E008E6D70 /* Assets.xcassets */,
 				8D5E20B720C2837E008E6D70 /* LaunchScreen.storyboard */,
 				8D5E20BA20C2837E008E6D70 /* Info.plist */,
 				8D5E20B220C2837D008E6D70 /* Werkstuk_2.xcdatamodeld */,
+				8D5E20DE20C2D071008E6D70 /* Annotation.swift */,
+				8D5E20E220C2E238008E6D70 /* DetailViewController.swift */,
+				8D5E20E620C2E747008E6D70 /* Images.xcassets */,
+				8D5E20E820C30DB7008E6D70 /* TaalController.swift */,
 			);
 			path = Werkstuk_2;
 			sourceTree = "<group>";
@@ -196,6 +205,11 @@
 				TargetAttributes = {
 					8D5E20A720C2837D008E6D70 = {
 						CreatedOnToolsVersion = 9.4;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 					8D5E20BE20C2837F008E6D70 = {
 						CreatedOnToolsVersion = 9.4;
@@ -232,8 +246,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D5E20E720C2E747008E6D70 /* Images.xcassets in Resources */,
 				8D5E20B920C2837E008E6D70 /* LaunchScreen.storyboard in Resources */,
-				8D5E20B620C2837E008E6D70 /* Assets.xcassets in Resources */,
 				8D5E20B120C2837D008E6D70 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,8 +274,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D5E20AE20C2837D008E6D70 /* ViewController.swift in Sources */,
+				8D5E20DF20C2D071008E6D70 /* Annotation.swift in Sources */,
 				8D5E20AC20C2837D008E6D70 /* AppDelegate.swift in Sources */,
+				8D5E20E320C2E238008E6D70 /* DetailViewController.swift in Sources */,
 				8D5E20B420C2837D008E6D70 /* Werkstuk_2.xcdatamodeld in Sources */,
+				8D5E20E920C30DB7008E6D70 /* TaalController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
