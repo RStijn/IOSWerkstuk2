@@ -30,7 +30,7 @@ class DetailViewController: UIViewController {
         name.text = naam
           let adres: String = changeName(name: villo.addresse!)
        address.text=adres
-        let date = NSDate(timeIntervalSince1970: TimeInterval(villo.last_update))
+        let date = NSDate(timeIntervalSince1970: TimeInterval(villo.last_update/1000))
         let dayTimePeriodFormatter = DateFormatter()
         dayTimePeriodFormatter.dateFormat = "dd mm YYYY hh:mm:ss"
         let dateString = dayTimePeriodFormatter.string(from: date as Date)
