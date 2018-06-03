@@ -59,14 +59,12 @@ class ViewController: UIViewController, MKMapViewDelegate {
     }
     func getVillostations() {
         
-        var urlString = ""
+        var urllink = ""
+        
+            urllink = "https://api.jcdecaux.com/vls/v1/stations?apiKey=6d5071ed0d0b3b68462ad73df43fd9e5479b03d6&contract=Bruxelles-Capitale"
         
         
-      
-            urlString = "https://api.jcdecaux.com/vls/v1/stations?apiKey=6d5071ed0d0b3b68462ad73df43fd9e5479b03d6&contract=Bruxelles-Capitale"
-        
-        
-        let url = URL(string: urlString)
+        let url = URL(string: urllink)
         
         let urlRequest = URLRequest(url: url!)
         
@@ -385,12 +383,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
         }
         return annotationImage
     }
-   /* func mapView(_ mapView: MKMapView, didUpdate userLocation: MKUserLocation) {
-        let center = CLLocationCoordinate2D(latitude: userLocation.coordinate.latitude, longitude: userLocation.coordinate.longitude)
-        let span = MKCoordinateSpan(latitudeDelta: 100, longitudeDelta: 100)
-        let region = MKCoordinateRegion(center: center, span: span)
-        mapView.setRegion(region, animated: true)
-    }*/
+   
 
 
 }

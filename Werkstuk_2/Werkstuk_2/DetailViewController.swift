@@ -50,7 +50,7 @@ class DetailViewController: UIViewController {
             available_bike_stands.text = "Nombre de vélos disponibles: " + String(villo.available_bike_stands)
             available_bikes.text = "Nombre de places de vélo vides: " + String(villo.available_bikes)
             
-            last_update.text = "Laatst geupdate opsh: " + dateString
+            last_update.text = "Dernière mise à jour: " + dateString
             
             }
         
